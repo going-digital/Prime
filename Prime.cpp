@@ -1,5 +1,5 @@
-// Talkie library
-// Copyright 2011 Peter Knight
+// Prime library
+// Copyright 2014 Peter Knight
 // This code is released under GPLv2 license.
 
 #if (ARDUINO >= 100)
