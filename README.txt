@@ -11,17 +11,15 @@ Introduction
 This is an implementation of various methods of prime searching. It uses two
 principle methods.
 
-For numbers under 2500000, it uses trial division with a dictionary of prime
+For numbers under 2,500,000, it uses trial division with a dictionary of prime
 numbers.
 
-For numbers up to 4294967295, it uses a series of SPRP tests (Jaeschke93), as
-listed in http://primes.utm.edu/prove/prove2_3.html
+For numbers up to 4,294,967,295, it uses the Miller-Rabin test.
 
-Future plans
-------------
-    I'm working to expand this library to 64bit. This will cover numbers up to
-341550071728321 (by proof Jaeschke93) and 18446744073709551615 (probable primes only).
+Prime supports all 32 bit integers. For a 64 bit implementation covering up to
+18,446,744,073,709,551,615, see the companion library Prime64.
 
 Thanks
 ------
     MathsJam Cambridge
+    Numberphile
